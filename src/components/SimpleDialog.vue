@@ -33,7 +33,7 @@ export default {
   watch: {
     visible(newVal, oldVa) {
       if (oldVa === false && newVal === true) {
-        this.$emit('update:visible', true)
+        // this.$emit('update:visible', true)
         this.$emit('open')
       }
     },
