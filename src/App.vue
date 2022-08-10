@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    ddddd
     <button @click="openDialog">click</button>
     <simple-dialog :width="'30%'" title="dialog title" @close="close" @open="onOpen" :visible.sync="visible">
       <div slot="title">new title</div>
